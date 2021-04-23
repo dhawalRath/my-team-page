@@ -1,0 +1,180 @@
+/* 
+code by - Dhawal (@dhawalRath)
+Date - 23rd April 2021
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'PT Serif', serif;
+}
+
+body{
+  font-size: 18px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper{
+  max-width: 935px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 12px;
+  padding-top: 110px;
+  padding-bottom: 90px;
+}
+
+.wrapper .title{
+  font-size: 2rem;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  padding-right: 13rem;
+}
+
+.wrapper .about{
+  font-family: var(--primary-font);
+  max-width: 440px;
+}
+
+.wrapper .about h3{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+/* team */
+.team {
+  margin-bottom: 115px;
+}
+.container{
+  max-width: 935px;
+  height: 1100px;
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .box{
+  width: 265px;
+  height: 385px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.box .card{
+  width: 100%;
+}
+
+.box .card .name{
+  font-family: var(--primary-font);
+  font-weight: 600;
+}
+
+.box p{
+  font-family: var(--secondary-font);
+  font-size: 0.666rem;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  margin-left: -30px;
+}
+
+.box2{
+  align-self: flex-end;
+}
+
+.box5{
+  align-self: flex-end;
+}
+
+.mobile{
+  display: none;
+}
+
+
+/* footer */
+.footer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  margin-bottom: 24px;
+  color: gray;
+}
+
+.footer a{
+  text-decoration: none;
+  color: gray;
+}
+
+.footer a:first-child{
+  font-weight: 700;
+}
+
+.footer a:last-child{
+  font-weight: 600;
+}
+
+
+
+/* mobile-version */
+@media(max-width: 550px){
+
+  .wrapper{
+    padding-top: 70px;
+    padding-bottom: 0;
+  }
+
+  .wrapper .title{
+    padding-right: 0; 
+    margin-bottom: 1.5rem;
+  }
+
+  .wrapper .about h3{
+    margin-bottom: 10px;
+  }
+
+  .wrapper .about p{
+    font-size: 0.777rem;
+    width: 300px;
+  }
+
+  .container .box{
+    width: 156px;
+    height: 237px;
+  }
+
+  .box .card .name{
+    font-size: 0.777rem;
+  }
+
+  .box p{
+    font-size: 0.555rem;
+    margin-left: -10px;
+  }
+
+  .box4{
+    align-self: flex-end;
+  }
+
+  .box5{
+    align-self: center;
+  }
+
+  .box6{
+    align-self: flex-end;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+}
