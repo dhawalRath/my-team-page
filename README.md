@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="my-team-page-challenge-3.netlify.app">
+    <a href="https://my-team-page-challenge-3.netlify.app/">
       Demo
     </a>
     <span> | </span>
