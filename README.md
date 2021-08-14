@@ -6,7 +6,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## :camera: Overview
 
-![desktop](./screenshots/desktop.png)
+![ss](./ss.png)
 
 ## :muscle: Built With
 
